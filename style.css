@@ -1,0 +1,112 @@
+body{
+    text-align: center;
+    background-image: url("hkpano.jpg");
+    }
+
+h1{
+    font-size: 42px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+h4{
+  font-size: 24px;
+}
+    
+    #question1, #question2, #question3, #question4,  #question5, #question6, #question7, #question8,  #question9, #question10, #results {
+      display:none;
+      width:750px;
+      padding: 50px;
+    }
+
+    #button
+    {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height:100px;
+      width:100px;
+      background-color: rgb(234, 10, 10);
+      border-radius: 3px;
+    }
+    
+    #quizarea
+    {
+      position: absolute;
+      margin: auto;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height:600px;
+      width:1200px;
+      background-color: rgba(225, 225, 225, 0.5);
+      border-radius: 3px;
+    }
+
+    #questionarea
+    {
+      position: absolute;
+      margin: auto;
+      top: 100px;
+      right: 0;
+      bottom: 40px;
+      left: 0;
+      height:500px;
+      width:1000px;
+      background-color: rgba(225, 225, 225, 0.8);
+      border-radius: 3px;
+    }
+
+    #answer{
+        text-align: center;
+        justify-content: center;
+        vertical-align: middle;
+        align-items: center;
+    }
+
+    #choice
+    {
+        position: flex;
+        margin: auto;
+        height:50px;
+        width:400px;
+        justify-content: center;
+        align-items: center;
+        vertical-align: middle;
+        background-color: rgba(222, 222, 222, 0.5);
+        border-radius: 3px;
+        border-color: azure;
+    }
+
+    .text-center
+        {
+        align-items: center;
+        }
+
+
+    .resultstext
+    {
+      align-items: center;
+      font-size: 24pxs;
+    }
+
+    .radiotext
+    {
+      font-size:24px;
+      text-align: left;
+    }
+
+    .radio{
+      width: 1.2em;
+      height: 1.2em;
+  }
